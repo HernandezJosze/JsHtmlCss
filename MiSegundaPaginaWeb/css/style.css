@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Century Schoolbook L", serif;
+}
+.container{
+    width:90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(161,140,209,0.5) 0%,rgba(251,194,235,0.5) 100%), url(../img/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.menu-navigation{
+    padding: 20px;
+    background: blanchedalmond;
+    color: white;
+
+}
